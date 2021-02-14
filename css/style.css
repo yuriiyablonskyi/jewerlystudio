@@ -1,0 +1,154 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*::after,
+*::before {
+	box-sizing: inherit;
+}
+a {
+	text-decoration: none;
+}
+.container {
+	max-width: 1220px;
+	padding: 0 10px;
+	margin: 0 auto;
+}
+body {
+	color: #272727;
+	font-family: Adelle Cyrillic;
+	font-weight: 300;
+	font-size: 18px;
+}
+.header {
+	background: #F2E3E3;
+}
+.header__inner {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 100px;
+}
+.header__logo{
+	width: 25%;
+}
+.menu__list {
+	display: flex;
+}
+.menu__item {
+	margin: 0 12px;
+}
+.menu__list-link,
+.header__phone{
+	line-height: 22px;
+	color: #272727;
+}
+.header__phone{
+	padding-left: 30px;
+	margin-left: 20px;
+	position: relative;
+}
+.header__phone-img{
+	position: absolute;
+	left: -13px;
+	top: 5px;
+}
+.header__phone:after{
+	position: absolute;
+	content: '';
+	border: 1px solid #272727;
+	height: 32px;
+	width: 32px;
+	border-radius: 50%;
+	top: -6px;
+	left: -20px;
+}
+.top__inner{
+	padding: 100px 0;
+	display: flex;
+}
+.top__one{
+	width: 25%;
+	padding-top: 250px;
+}
+.top__one-img{
+	position: relative;
+}
+.top__one-img-bg{
+	position: absolute;
+	bottom: 50px;
+	left: -30px;
+	z-index: -1;
+}
+.top__one-text{
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 27px;
+	padding-top: 25px;
+}
+.top__two{
+	width: 30%;
+}
+.top__two-title{
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 37px;
+	padding-left: 90px;
+}
+.top__two-subtitle{
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 37px;
+	margin-bottom: 30px;
+	letter-spacing: 0.15em;
+}
+.top__two-text{
+	line-height: 30px;
+	letter-spacing: 0.1em;
+}
+.top__three{
+	width: 45%;
+	padding-left: 100px;
+	padding-top: 40px;
+}
+.top__three-img{
+	position: relative;
+}
+.top__three-img-front{
+	max-width: 100%;
+}
+.top__three-img-bg{
+	position: absolute;
+	top: -50px;
+	left: -30px;
+	max-width: 100%;
+}
+.about{
+	background: #F8F8F8;
+	padding: 50px 0;
+}
+.about__title{
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 37px;
+}
+.about__inner{
+	display: flex;
+}
+.about__content{
+	padding: 20px 0;
+	width: 50%;
+}
+.about__text{
+	line-height: 30px;
+	padding: 20px 60px 20px 0;
+}
+.about__img{
+	width: 50%;
+	position: relative;
+}
+.about__img-bg{
+	top: -30px;
+	left: -30px;
+	position: absolute;
+}
